@@ -11,7 +11,10 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: url(../imagens/walpaper2.jpg);
+    background-color: blueviolet;
+    text-align: center;
+    /*
+    background-image: url(../imagens/walpaper2.jpg);*/
 }
 /*CONFIGURAÇÃO DO MENU NAV*/
 .menu{
@@ -22,7 +25,7 @@ body{
     align-content: stretch;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    align-items: center;
+    align-items: baseline;
 }
 #active{
     background-color: white;
@@ -51,19 +54,39 @@ body{
 .menu ul li a{
     text-decoration: none;
     border: 1px solid black;
-    border-radius: 25px;
+    color: white;
+    background-color: indigo;
+    border-radius: 5px;
     padding: 5px;
 }
 /*FIM DA COFIGURAÇÃO MENU*/
 /*SECTION 1*/
 .home_start{
-    width: 90vw;
-    height: 650px;
+    width: 1000px;
+    height: 550px;
     /*background-image: url(../imagens/pet-sor.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 1250px 750px;*/
-    background: red;
-    margin-top: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.home_mid{
+    width: 100vw;
+    height: 800px auto;
+    background-color: white;
+}
+.home_mid h1{
+    margin-top: 25px;
+}
+.home-moeda{
+width: 100vw;
+height: 800px;
+padding: 35px;
+}
+.footer{
+    background-color: white;
+    width: 100vw;
+    height: 350px;
 }
