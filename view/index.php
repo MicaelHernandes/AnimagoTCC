@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
     <title>Animago</title>
@@ -22,9 +23,9 @@
             </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="d-block w-100" data-src="holder.js/800x400?auto=yes&amp;bg=777&amp;fg=555&amp;text=Primeiro Slide" alt="Primeiro Slide [800x400]" src="./imagens/banners/1.png" data-holder-rendered="true">
+                    <img class="d-block" width="1000px" height="auto" data-src="holder.js/800x400?auto=yes&amp;bg=777&amp;fg=555&amp;text=Primeiro Slide" alt="Primeiro Slide [800x400]" src="./imagens/banners/3.jpg" data-holder-rendered="true">
                     <div class="carousel-caption d-none d-md-block">
-                        <h1 class="text-success">Bem vindo a <span class="text-danger">Animago</span></h1>
+                        <h1>Bem vindo a Animago</h1>
                         <p>Aqui você encontrara tudo para seu Pet!</p>
                         <p><button class="btn btn-primary">Conhecer</button></p>
                     </div>

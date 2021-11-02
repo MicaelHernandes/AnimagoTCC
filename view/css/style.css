@@ -59,16 +59,11 @@ body{
     border-radius: 5px;
     padding: 5px;
 }
+
 /*FIM DA COFIGURAÇÃO MENU*/
 /*SECTION 1*/
 .home_start{
     width: 1000px;
-    height: 550px;
-    /*background-image: url(../imagens/pet-sor.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 1250px 750px;*/
     margin-top: 30px;
     margin-bottom: 30px;
 }

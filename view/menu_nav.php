@@ -1,4 +1,3 @@
-<?php $valor = isset($_SESSION['usuario']) ? 'S' : 'N';?>
 <nav class="menu">
         <div class="title">
             <a href="../view/index.php"><img src="./imagens/logo.jpeg" alt="logo animago"></a>
@@ -33,10 +32,8 @@
        if(isset($_SESSION['usuario']) == false){
         ?>
         <div class="user-area">
-            <button type="button" class="btn btn-alert m-1">
-                <img src="./imagens/user.png" alt=""><span class="badge badge-light">Logar</span>
-            </button>
-            <p><a href="">criar conta</a></p>
+            <button class="btn btn-success" style="margin-right: 2px;">Logar</button> 
+            <button class="btn btn-light btn-sm">Cadastrar-se</button>
             
         </div>
         <?php };
