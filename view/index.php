@@ -25,7 +25,7 @@
                 <div class="carousel-item active">
                     <img class="d-block" width="1000px" height="auto" data-src="holder.js/800x400?auto=yes&amp;bg=777&amp;fg=555&amp;text=Primeiro Slide" alt="Primeiro Slide [800x400]" src="./imagens/banners/3.jpg" data-holder-rendered="true">
                     <div class="carousel-caption d-none d-md-block">
-                        <h1>Bem vindo a Animago</h1>
+                        <h1 class="text-d">Bem vindo a <i class="text-success"> Animago</i></h1>
                         <p>Aqui você encontrara tudo para seu Pet!</p>
                         <p><button class="btn btn-primary">Conhecer</button></p>
                     </div>

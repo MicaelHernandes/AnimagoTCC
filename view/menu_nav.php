@@ -32,7 +32,7 @@
        if(isset($_SESSION['usuario']) == false){
         ?>
         <div class="user-area">
-            <button class="btn btn-success" style="margin-right: 2px;">Logar</button> 
+            <a href="../view/login.php"> <button class="btn btn-success" style="margin-right: 2px;">Logar</button></a> 
             <button class="btn btn-light btn-sm">Cadastrar-se</button>
             
         </div>
