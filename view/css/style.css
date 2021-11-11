@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif ;
+    text-decoration: none;
+}
+body{
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: blueviolet;
+    text-align: center;
+    /*
+    background-image: url(../imagens/walpaper2.jpg);*/
+}
+/*CONFIGURAÇÃO DO MENU NAV*/
+.menu{
+    width: 100vw;
+    height: auto;
+    background-color: #f7f7f7;
+    display: flex;
+    align-content: stretch;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: baseline;
+}
+#active{
+    background-color: white;
+    color: black;
+}
+.title img{
+    width: 95px;
+}
+.user-area{
+    display: flex;
+    align-items: baseline;
+}
+.user-area img{
+    width: 20px;
+}
+.user-area img,h1{
+    margin-left: 5px;
+}
+.menu ul{
+    display: flex;
+    list-style: none;
+}
+.menu ul li{
+    padding: 5px;
+}
+.menu ul li a{
+    text-decoration: none;
+    border: 1px solid black;
+    color: white;
+    background-color: indigo;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+/*FIM DA COFIGURAÇÃO MENU*/
+/*SECTION 1*/
+.home_start{
+    width: 1000px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.home_mid{
+    width: 100vw;
+    height: 800px auto;
+    background-color: white;
+}
+.home_mid h1{
+    margin-top: 25px;
+}
+.home-moeda{
+width: 100vw;
+height: auto;
+padding: 5px;
+}
+.footer{
+    background-color: white;
+    width: 100vw;
+    padding: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.footer-item{
+    width: auto;
+    height: 250px;
+}
+.inc{
+    color: white;
+    background-color: black;
+    width: 100vw;
+
+}
