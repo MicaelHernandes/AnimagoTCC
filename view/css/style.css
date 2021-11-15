@@ -16,51 +16,7 @@ body{
     /*
     background-image: url(../imagens/walpaper2.jpg);*/
 }
-/*CONFIGURAÇÃO DO MENU NAV*/
-.menu{
-    width: 100vw;
-    height: auto;
-    background-color: #f7f7f7;
-    display: flex;
-    align-content: stretch;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    align-items: baseline;
-}
-#active{
-    background-color: white;
-    color: black;
-}
-.title img{
-    width: 95px;
-}
-.user-area{
-    display: flex;
-    align-items: baseline;
-}
-.user-area img{
-    width: 20px;
-}
-.user-area img,h1{
-    margin-left: 5px;
-}
-.menu ul{
-    display: flex;
-    list-style: none;
-}
-.menu ul li{
-    padding: 5px;
-}
-.menu ul li a{
-    text-decoration: none;
-    border: 1px solid black;
-    color: white;
-    background-color: indigo;
-    border-radius: 5px;
-    padding: 5px;
-}
 
-/*FIM DA COFIGURAÇÃO MENU*/
 /*SECTION 1*/
 .home_start{
     width: 1000px;
