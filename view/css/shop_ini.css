@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body{
     overflow-x: hidden;
 }
@@ -38,4 +39,46 @@ justify-content: center;
 align-items: flex-start;
 color: rgb(0, 0, 0);
 text-transform: uppercase;
+=======
+body{
+    overflow-x: hidden;
+}
+.home_start{
+    width: 100vw;
+    height: 550px;
+    display: flex;
+    margin-top: 10px;
+}
+.left_start{
+    width: 60vw;
+    float: left;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.right_start{
+    width: 40vw;
+    float: right;
+    height: 100%;
+}
+.home_mid{
+    width: 100vw;
+    height: 20vw;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.shop-monica{
+width: 100vw;
+height: 100vh;
+margin-top: 30px;
+display: flex;
+justify-content: center;
+align-items: flex-start;
+color: rgb(0, 0, 0);
+text-transform: uppercase;
+>>>>>>> 742037914a537502700720944b8c751289c69bb9
 }
