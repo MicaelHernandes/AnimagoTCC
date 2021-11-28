@@ -16,6 +16,9 @@ body{
     /*
     background-image: url(../imagens/walpaper2.jpg);*/
 }
+.carousel-inner img{
+    border-radius: 25px !important;
+}
 
 /*SECTION 1*/
 .home_start{

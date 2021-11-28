@@ -12,7 +12,7 @@
             <h3>Contato</h3>
             <p>Telefone: <a href="tel:+551124001234">+55(11)2400-1234</a></p>
             <p>Celular: <a href="tel:+5511996832330">+55(11)91234-5678</a></p>
-            <p>Email: <a href="mailto:animagoinc@outlook.com">animagoinc@outlook.com</a></p>
+            <p>Email: <a href="mailto:animagoinc@outlook.com">animagoinc@etec.sp.gov.com</a></p>
             <p>Endereço: R. Cristóbal Cláudio Elilo, 88 - Parque Cecap, Guarulhos - SP, 07190-065</p>
         </div>
         <div class="footer-item">

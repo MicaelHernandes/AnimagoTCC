@@ -10,10 +10,7 @@
     flex-wrap: wrap;
     align-items: baseline;
 }
-#active{
-    background-color: white;
-    color: black;
-}
+
 .title img{
     width: 95px;
 }
@@ -42,6 +39,10 @@
     border-radius: 5px;
     padding: 5px;
 }
+.menu ul li a:hover{
+    background-color: white;
+    color: black;
+}
 
 /*FIM DA COFIGURAÇÃO MENU*/
 </style>
@@ -51,12 +52,11 @@
         </div>
         <div class="items-center">
             <ul>
-                <li ><a href="../view/index.php" id="active">HOME</a></li>
+                <li ><a href="../view/index.php">HOME</a></li>
                 <li ><a href="../view/shopping.php">SHOP</a></li>
                 <li ><a href="">PROGRAMA DE PONTOS</a></li>
-                <li ><a href="">SOBRE</a></li>
-                <li ><a href="">FORUM</a></li>
-                <li ><a href="">CONTATO</a></li>
+                <li ><a href="../view/contato.php">CONTATO</a></li>
+                <li ><a href="../view/sobre.php">SOBRE</a></li>
             </ul>
         </div>
         <?php 
