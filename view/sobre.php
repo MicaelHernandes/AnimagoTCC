@@ -17,7 +17,7 @@
         .sobre{
             margin-top: 15px !important;
             width: 880px;
-            height: 80vh;
+            height: auto;
             margin: auto;
             display: flex;
             align-items: center;
@@ -30,6 +30,9 @@
         .sobre h1,h2{
             text-transform: uppercase;
         }
+        .sobre p{
+            padding: 15px;
+        }
     </style>
     <title>Sobre</title>
 </head>
@@ -39,32 +42,14 @@ include_once('menu_nav.php');
 ?>
 <div class="sobre">
     <h1>Sobre nós</h1>
-    <p>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+    <p>
+    Somos um grupo de estudantes da Etec formados por cinco membros, tendo como objetivo em nosso TCC ligar ações beneficentes com nosso projeto principal, um E-commerce/Pet Shop voltado à animais domésticos, onde iremos vender utensílios, rações, brinquedos entre outros produtos e serviços, tendo como título “Animago”. 
     </p>
     <h2>Missão</h2>
-    <p>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-    </p>
-    <h2>Visão</h2>
-    <p>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+    <p>Assim como brevemente citado no tópico acima, buscamos promover ações beneficentes, e, nesse projeto, tais ações será doações para Ongs que buscam ajudam animais em situações de rua, abandono e maus tratos, e claro, buscaremos oferecer ótimos serviços ao seu pet. 
     </p>
     <h2>Valores</h2>
-    <p>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+    <p>Em nosso grupo, quando citamos “valores” no nosso projeto, nos referimos ao valor moral, que por sua vez abrange muitas coisas, mas dentre muitas coisas queremos dar ênfase à empatia e solidariedade, pois ambas juntas conseguem fazer oposição ao mau que muitos animais sofrem. Fazendo o bem, teremos a felicidade como valor pago pela nossa boa ação. 
     </p>
 </div>
 <?php 

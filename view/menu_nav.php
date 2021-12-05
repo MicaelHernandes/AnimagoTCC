@@ -54,7 +54,7 @@
             <ul>
                 <li ><a href="../view/index.php">HOME</a></li>
                 <li ><a href="../view/shopping.php">SHOP</a></li>
-                <li ><a href="">PROGRAMA DE PONTOS</a></li>
+                <li ><a href="../view/pontos.php">PROGRAMA DE PONTOS</a></li>
                 <li ><a href="../view/contato.php">CONTATO</a></li>
                 <li ><a href="../view/sobre.php">SOBRE</a></li>
             </ul>

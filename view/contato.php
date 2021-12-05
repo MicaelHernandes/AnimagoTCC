@@ -20,7 +20,7 @@ include_once('../view/menu_nav.php');
             border-radius: 25px;
             margin-top: 50px !important;
             width: 60vw;
-            height: 60vh;
+            height: auto;
             margin: auto;
             display: flex;
             flex-direction: column;
@@ -58,7 +58,7 @@ include_once('../view/menu_nav.php');
                 <div class="row mb-3">
                     <label for="telefone" class="col-sm-2 col-form-label">Celular</label>
                     <div class="col-sm-10">
-                        <input type="text" class="form-control" id="telefone" placeholder="(11)99123-1234" required>
+                        <input type="text" class="form-control" id="telefone" placeholder="(11)99123-1234" required max="15">
                     </div>
                 </div>
                 <div class="form-group">
